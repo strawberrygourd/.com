@@ -24,4 +24,5 @@ jobs:
           python -m pip install --upgrade pip
       - name: weixin
         run: |
+          cp ..
           python3 main.py
