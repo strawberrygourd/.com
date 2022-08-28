@@ -21,4 +21,5 @@ jobs:
           python -m pip install --upgrade pip
       - name: weixin
         run: |
+          cd .com/.github/workflows
           python3 main.py
